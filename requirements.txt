@@ -2,7 +2,7 @@ streamlit==1.31.1
 google-generativeai==0.8.3
 pandas==2.2.2
 numpy==1.26.4
-joblib==1.3.2  # Giảm từ 1.4.2 xuống 1.3.2
-lightgbm==4.5.0
-xgboost==2.1.1
+joblib==1.3.2
+lightgbm==4.3.0  # Giảm từ 4.5.0
+xgboost==2.0.3   # Giảm từ 2.1.1
 scikit-learn==1.5.2
