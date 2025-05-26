@@ -24,7 +24,7 @@ def load_model(model_name):
         return None
 
 # Cấu hình Google Gemini API
-genai.configure(api_key=st.secrets["general"]["AIzaSyDBbom8P1ip9cc0bWDyfj5-s51S9f1P7uk"])
+genai.configure(api_key="AIzaSyDBbom8P1ip9cc0bWDyfj5-s51S9f1P7uk")
 model = genai.GenerativeModel("gemini-2.0-flash-thinking-exp-01-21")
 
 # --------------------- XỬ LÝ DỮ LIỆU ---------------------
