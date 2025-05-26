@@ -10,9 +10,9 @@ st.set_page_config(page_title="AI Real Estate Advisor", layout="wide")
 @st.cache_resource
 def load_model(model_name):
     model_paths = {
-        "LightGBM": "models/best_lgb_model.pkl",
-        "XGBoost": "models/best_xgb_model.pkl",
-        "HistGradientBoosting": "models/best_hgb_model.pkl"
+        "LightGBM": "best_lgb_model.pkl",
+        "XGBoost": "best_xgb_model.pkl",
+        "HistGradientBoosting": "best_hgb_model.pkl"
     }
     if model_name not in model_paths:
         st.error(f"Mô hình {model_name} không tồn tại!")
